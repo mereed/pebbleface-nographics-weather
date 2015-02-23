@@ -1,0 +1,51 @@
+{
+    "appKeys": {
+        "bluetoothvibe": 1,
+        "condition": 4,
+        "hourlyvibe": 2,
+        "invert_color": 0,
+        "mmode": 5,
+        "temperature": 3
+    },
+    "capabilities": [
+        "location",
+        "configurable"
+    ],
+    "companyName": "mreed",
+    "longName": "no graphics weather",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/ngw-menu.png",
+                "menuIcon": true,
+                "name": "IMAGE_MENU_ICON",
+                "type": "png"
+            },
+            {
+                "file": "fonts/Raleway Thin.ttf",
+                "name": "FONT_RALEWAYTHIN_14",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9cf]",
+                "file": "fonts/Raleway Thin.ttf",
+                "name": "FONT_RALEWAYTHIN_24",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9: ]",
+                "file": "fonts/raleway.light.ttf",
+                "name": "FONT_RALEWAYLIGHT_53",
+                "type": "font"
+            }
+        ]
+    },
+    "shortName": "n g w",
+    "uuid": "6a8bcfb9-052b-43f5-bd57-f55e66bd84ae",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
